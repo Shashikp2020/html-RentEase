@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3f51b5;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #673ab7;
+    color: white;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input, .search-bar select, .search-bar button {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+}
+
+.features .feature {
+    width: 45%;
+}
+
+.testimonials, .featured-listings, .how-it-works, .why-choose {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.testimonials p, .featured-listings p {
+    font-style: italic;
+}
+
+.featured-listings .listing {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.featured-listings .listing img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #3f51b5;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .quick-links, .contact-info, .newsletter {
+    flex: 1;
+    margin: 10px;
+}
+
+footer .quick-links a, .contact-info p, .newsletter input {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+footer .social-media a {
+    margin-right: 10px;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
